@@ -8,3 +8,26 @@
  padding: 0.5rem 1rem;
 }
 
+.icon {
+  font-size: 2rem;
+  color: '#fff';
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2em;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+

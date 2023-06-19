@@ -9,6 +9,7 @@ import {
   Project,
   Skill,
   Modal,
+  TheEnd,
 } from '../components';
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
         <Skill />
         <hr className="m-0" />
         <Project />
+        <hr className="m-0" />
+        <TheEnd />
       </div>
 
       <Modal />

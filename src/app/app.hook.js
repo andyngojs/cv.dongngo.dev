@@ -35,7 +35,7 @@ export default function useApp() {
             {
               scrollTop: target.offset().top,
             },
-            100,
+            0,
             'easeInOutExpo',
           );
           return false;

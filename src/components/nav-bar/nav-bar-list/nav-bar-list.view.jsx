@@ -21,6 +21,10 @@ const NavList = [
     id: "#projects",
     name: "Projects",
   },
+  {
+    id: "#the-end",
+    name: "The End",
+  },
 ];
 
 const _NavBarList = () => {

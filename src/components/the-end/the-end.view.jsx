@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReactSVG} from 'react-svg';
-import BongoCat from '../assets/bongo-cat.svg';
+import BongoCat from '../../assets/bongo-cat.svg';
 
 export const TheEnd = () => {
   return (

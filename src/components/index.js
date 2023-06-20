@@ -5,4 +5,4 @@ export * from './education';
 export * from './skills';
 export * from './projects';
 export * from './modal';
-export * from './the-end.view';
+export * from './the-end';

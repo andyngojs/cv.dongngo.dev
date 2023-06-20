@@ -3,18 +3,18 @@ import {useCallback, useEffect} from 'react';
 // packages
 import $ from 'jquery';
 import * as bootstrap from 'bootstrap';
+import alertify from 'alertifyjs';
 
 export default function useApp() {
   const zoomImages = useCallback(className => {
-    $(`.${className}`)
-      .on('click', (e) => {
-        $('#div-zoom-area').css('display', 'block');
-        $('#img-zoom-area-content').attr('src', $(e.currentTarget)[0].src);
+    $(`.${className}`).on('click', e => {
+      $('#div-zoom-area').css('display', 'block');
+      $('#img-zoom-area-content').attr('src', $(e.currentTarget)[0].src);
 
-        $('#div-zoom-area').on('click', (e) => {
-          $(e.currentTarget).css('display', 'none');
-        });
+      $('#div-zoom-area').on('click', e => {
+        $(e.currentTarget).css('display', 'none');
       });
+    });
   }, []);
 
   const scrollTrigger = useCallback(() => {
@@ -56,6 +56,21 @@ export default function useApp() {
     new bootstrap.ScrollSpy(document.body, {
       target: '#sideNav',
     });
+
+    // Say hello when access page.
+    if (window.innerWidth < 992) {
+      // Default position of notify is bottom-right
+      alertify.success(
+        "Have a good day, everyone! I'm Dong Ngo from Viet Nam.",
+        7,
+      );
+    } else {
+      alertify.set('notifier', 'position', 'top-right');
+      alertify.success(
+        "Have a good day, everyone! I'm Dong Ngo from Viet Nam.",
+        7,
+      );
+    }
 
     // Zoom images that have class name: img-zoomable
     zoomImages('img-zoomable');

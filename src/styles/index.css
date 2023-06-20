@@ -31,3 +31,11 @@
   line-height: inherit;
 }
 
+.m-right {
+  margin-right: 0.5rem;
+}
+
+.ul-project {
+  margin-left: 0rem;
+}
+

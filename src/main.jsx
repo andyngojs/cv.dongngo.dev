@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import "@popperjs/core";
 import "jquery.easing";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'alertifyjs/build/css/alertify.css';
 // components
 import App from "./app";
 // styles

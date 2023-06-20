@@ -22,7 +22,7 @@ const _About = () => {
         </h1>
 
         <div className="subheading mb-0">
-          <FaAddressCard /> ·{appConfig.personalInfo.title}
+          <FaAddressCard /> · {appConfig.personalInfo.title}
         </div>
 
         <div className="subheading mb-4">

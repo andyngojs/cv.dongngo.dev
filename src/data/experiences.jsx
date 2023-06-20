@@ -9,6 +9,22 @@ export const myExperiences = [
     endDate: 'Present',
     description: (
       <>
+      <div className="mb-2">
+          <FaBookmark className="text-warning" />
+          Participate developing Gift, gift exchange module for{' '}
+          <a target="_blank" href="">
+            Plusssz
+          </a>{' '}
+          app
+        </div>
+        <div className="mb-2">
+          <FaBookmark className="text-warning" />
+          Participate developing Course module for{' '}
+          <a target="_blank" href="">
+            Nghi Thảo
+          </a>{' '}
+          app
+        </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
           Build, upgrade app on the App Store and Play Store for customer.

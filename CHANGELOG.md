@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2023-07-10
+### Fixed
+- can't export image when deploy it.
+
 ## [0.1.0] - 2023-07-10
 ### Added
-- Changelog file
+- Changelog file.
 ### Changed 
-- Convert png to webp image
+- Convert png to webp image.

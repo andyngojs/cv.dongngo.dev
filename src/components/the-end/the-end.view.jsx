@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReactSVG} from 'react-svg';
-import BongoCat from '../../assets/bongo-cat.svg';
+import appConfig from '../../app/config';
 
 export const TheEnd = () => {
   return (
@@ -21,7 +21,7 @@ export const TheEnd = () => {
         </p>
 
         <div className="cat-typing">
-          <ReactSVG src={BongoCat} />
+          <ReactSVG src={appConfig.iconTheEnd} />
         </div>
       </div>
     </section>

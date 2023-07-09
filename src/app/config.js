@@ -11,8 +11,12 @@ class Config {
     return this.#_subheading;
   }
 
+  get iconTheEnd() {
+    return "public/bongo-cat.svg"
+  }
+
   get avatar() {
-    return 'src/assets/profile.webp';
+    return 'public/profile.webp';
   }
 
   get firstName() {

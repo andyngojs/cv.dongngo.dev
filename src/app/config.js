@@ -12,7 +12,7 @@ class Config {
   }
 
   get avatar() {
-    return 'src/assets/profile.png';
+    return 'src/assets/profile.webp';
   }
 
   get firstName() {

@@ -29,7 +29,11 @@ const myExperiences = [
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Build, upgrade app on the App Store and Play Store for customer.
+          Build, upgrade app on the both platforms IOS and Android for customer.
+        </div>
+        <div className="mb-2">
+          <FaBookmark className="text-warning" />
+          Participate to release mobile apps on the Google Play and App Store.
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
@@ -49,7 +53,7 @@ const myExperiences = [
       <>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate work process and project-based learning.
+          Research Angular Framework
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />

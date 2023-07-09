@@ -71,3 +71,7 @@ body::-webkit-scrollbar-thumb
   margin-left: 0rem;
 }
 
+.disable-img {
+  pointer-events: none;
+}
+

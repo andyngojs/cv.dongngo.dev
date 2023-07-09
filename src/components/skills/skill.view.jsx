@@ -35,17 +35,22 @@ const languagesAndTools = [
     icon: <i class="devicon-github-original colored"></i>,
   },
   {
-    name: 'slack',
-    icon: <i class="devicon-slack-plain-wordmark colored"></i>,
+    name: 'Gitlab',
+    icon: <i class="devicon-gitlab-plain-wordmark colored"></i>,
   },
   {
     name: 'xcode',
     icon: <i class="devicon-xcode-plain colored"></i>,
   },
+  {
+    name: 'slack',
+    icon: <i class="devicon-slack-plain-wordmark colored"></i>,
+  },
 ];
 
 const workflows = [
   'Git, Github for teamwork',
+  "Tasks management with ClickUp",
   'Testing & Debugging',
   '...',
   'If you do not have an awesome brain, you have to ceaselessly learn!',

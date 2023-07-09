@@ -201,6 +201,7 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color: #46ACC2;
+  text-decoration: none;
 }
 
 a:hover, a:focus, a:active {

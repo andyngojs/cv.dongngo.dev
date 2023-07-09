@@ -1,42 +1,42 @@
-import React, { memo, useCallback } from "react";
+import React, {memo, useCallback} from 'react';
 
-const NavList = [
+const NAV_BAR_LIST = [
   {
-    id: "#about",
-    name: "About",
+    id: '#about',
+    name: 'About',
   },
   {
-    id: "#experience",
-    name: "Experience",
+    id: '#experience',
+    name: 'Experience',
   },
   {
-    id: "#education",
-    name: "Education",
+    id: '#education',
+    name: 'Education',
   },
   {
-    id: "#skills",
-    name: "Skills",
+    id: '#skills',
+    name: 'Skills',
   },
   {
-    id: "#projects",
-    name: "Projects",
+    id: '#projects',
+    name: 'Projects',
   },
   {
-    id: "#the-end",
-    name: "The End",
+    id: '#the-end',
+    name: 'The End',
   },
 ];
 
 const _NavBarList = () => {
   const renderItem = useCallback(() => {
-    return NavList.map((item, index) => (
+    return NAV_BAR_LIST.map((item, index) => (
       <li className="nav-item" key={item.id}>
         <a className="nav-link js-scroll-trigger" href={item.id}>
           {item.name}
         </a>
       </li>
     ));
-  }, [NavList]);
+  }, []);
 
   return <ul className="navbar-nav">{renderItem()}</ul>;
 };

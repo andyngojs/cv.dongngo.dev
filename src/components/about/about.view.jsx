@@ -1,8 +1,27 @@
 import React, {memo, useCallback} from 'react';
-import {FaAddressCard} from 'react-icons/fa';
-import {DiReact} from 'react-icons/di';
+import {
+  FaAddressCard,
+  FaMap,
+  FaLinkedin,
+  FaGithub,
+  FaFacebook,
+} from 'react-icons/fa';
 import appConfig from '../../app/config';
-import {socialsIcon} from '../../data/socials';
+
+const socialsIcon = [
+  {
+    url: 'https://www.linkedin.com/in/dongnba',
+    icon: <FaLinkedin />,
+  },
+  {
+    url: 'https://github.com/andyngojs',
+    icon: <FaGithub />,
+  },
+  {
+    url: 'https://www.facebook.com/nBaDong',
+    icon: <FaFacebook />,
+  },
+];
 
 const _About = () => {
   const renderSocial = useCallback(() => {
@@ -21,22 +40,20 @@ const _About = () => {
           <span className="text-primary">{appConfig.firstName}</span>
         </h1>
 
-        <div className="subheading mb-0">
+        <div className="subheading mt-2 mb-2">
           <FaAddressCard /> · {appConfig.personalInfo.title}
         </div>
 
         <div className="subheading mb-4">
+          <FaMap /> · {appConfig.personalInfo.address} ·
           <a href={'mailto:' + appConfig.personalInfo.email}>
-            {appConfig.personalInfo.email}
+            {' ' + appConfig.personalInfo.email}
           </a>
         </div>
 
         <p className="lead mb-0">Welcome to visit my CV online!</p>
         <p className="lead mb-4">
-          <em className="subheading-welcome">
-            Have a basic knowledge of software development. The more specific is
-            on the mobile platform and web development.
-          </em>
+          <em className="subheading-welcome">{appConfig.subHeading}</em>
         </p>
 
         <p className="lead mb-4">

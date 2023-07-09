@@ -1,4 +1,3 @@
-// packages
 import {useCallback, useEffect} from 'react';
 // packages
 import $ from 'jquery';
@@ -42,7 +41,7 @@ export default function useApp() {
         }
       }
     });
-  }, [location]);
+  }, []);
 
   useEffect(() => {
     scrollTrigger();

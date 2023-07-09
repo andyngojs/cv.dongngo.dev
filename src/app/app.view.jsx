@@ -1,3 +1,4 @@
+import React from 'react';
 // hooks
 import useApp from './app.hook';
 // components
@@ -12,7 +13,7 @@ import {
   TheEnd,
 } from '../components';
 
-function App() {
+export default function App() {
   useApp();
 
   return (
@@ -37,5 +38,3 @@ function App() {
     </>
   );
 }
-
-export default App;

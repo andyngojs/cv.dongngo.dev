@@ -4,7 +4,7 @@ import {FaCheck} from 'react-icons/fa';
 const languagesAndTools = [
   {
     name: 'HTML',
-    icon: <i class="devicon-html5-plain-wordmark colored"></i>,
+    icon: <i className="devicon-html5-plain-wordmark colored"></i>,
   },
   {
     name: 'CSS',
@@ -24,27 +24,27 @@ const languagesAndTools = [
   },
   {
     name: 'Nodejs',
-    icon: <i class="devicon-nodejs-plain colored"></i>,
+    icon: <i className="devicon-nodejs-plain colored"></i>,
   },
   {
     name: 'mongoDB',
-    icon: <i class="devicon-mongodb-plain-wordmark colored"></i>,
+    icon: <i className="devicon-mongodb-plain-wordmark colored"></i>,
   },
   {
     name: 'Github',
-    icon: <i class="devicon-github-original colored"></i>,
+    icon: <i className="devicon-github-original colored"></i>,
   },
   {
     name: 'Gitlab',
-    icon: <i class="devicon-gitlab-plain-wordmark colored"></i>,
+    icon: <i className="devicon-gitlab-plain-wordmark colored"></i>,
   },
   {
     name: 'xcode',
-    icon: <i class="devicon-xcode-plain colored"></i>,
+    icon: <i className="devicon-xcode-plain colored"></i>,
   },
   {
     name: 'slack',
-    icon: <i class="devicon-slack-plain-wordmark colored"></i>,
+    icon: <i className="devicon-slack-plain-wordmark colored"></i>,
   },
 ];
 

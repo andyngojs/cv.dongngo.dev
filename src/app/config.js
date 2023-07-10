@@ -1,3 +1,6 @@
+import bongoCat from '../assets/bongo-cat.svg'
+import avatar from '../assets/profile.webp'
+
 class Config {
   #_firstName = 'Đông';
   #_lastName = 'Ngô Bá';
@@ -12,11 +15,11 @@ class Config {
   }
 
   get iconTheEnd() {
-    return "public/bongo-cat.svg"
+    return bongoCat;
   }
 
   get avatar() {
-    return 'public/profile.webp';
+    return avatar;
   }
 
   get firstName() {

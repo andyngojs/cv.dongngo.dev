@@ -16,8 +16,7 @@ const languagesAndTools = [
   },
   {
     name: 'Angular',
-    icon: <i className="devicon-angularjs-plain colored"></i>
-
+    icon: <i className="devicon-angularjs-plain colored"></i>,
   },
   {
     name: 'React',
@@ -54,12 +53,12 @@ const languagesAndTools = [
   {
     name: 'firebase',
     icon: <i className="devicon-firebase-plain colored"></i>,
-  }
+  },
 ];
 
 const workflows = [
   'Git, Github for teamwork',
-  "Tasks management with ClickUp",
+  'Tasks management with ClickUp',
   'Testing & Debugging',
   '...',
   'If you do not have an awesome brain, you have to ceaselessly learn!',

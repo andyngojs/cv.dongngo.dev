@@ -1,5 +1,5 @@
-import bongoCat from '../assets/bongo-cat.svg'
-import avatar from '../assets/profile.webp'
+import bongoCat from '../assets/bongo-cat.svg';
+import avatar from '../assets/profile.webp';
 
 class Config {
   #_firstName = 'Đông';
@@ -8,7 +8,7 @@ class Config {
   #_email = 'dongnbas@gmail.com';
   #_address = 'Hanoi, Vietnam';
   #_subheading =
-    "Hi there! My name is Dong Ngo. People usually know me by the name is AndyngoJs. I have a basic knowledge of software development. The more specific is on the mobile platform and web development.";
+    'Hi there! My name is Dong Ngo. People usually know me by the name is AndyngoJs. I have a basic knowledge of software development. The more specific is on the mobile platform and web development.';
 
   get subHeading() {
     return this.#_subheading;

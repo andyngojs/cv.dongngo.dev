@@ -2,6 +2,10 @@ import moment from 'moment';
 
 export const getRelativeTime = (startDate, endDate) => {
   let startDateFormatted, endDateFormatted;
+  if (!startDate || !endDate) {
+    return null
+  }
+
   if (!startDate.includes('/') && !endDate.includes('/')) {
     startDateFormatted = moment(startDate, 'YYYY').format('YYYY');
     endDateFormatted = moment(endDate, 'YYYY').format('YYYY');

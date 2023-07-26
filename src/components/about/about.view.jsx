@@ -1,11 +1,11 @@
-import React, {memo, useCallback} from 'react';
+import React, {useCallback} from 'react';
 import {
   FaAddressCard,
   FaMap,
   FaLinkedin,
   FaGithub,
   FaFacebook,
-  FaYoutube
+  FaYoutube,
 } from 'react-icons/fa';
 import appConfig from '../../app/config';
 
@@ -18,14 +18,14 @@ const socialsIcon = [
     url: 'https://github.com/andyngojs',
     icon: <FaGithub />,
   },
-  {
-    url: 'https://fb.com/nBaDong',
-    icon: <FaFacebook />,
-  },
-  {
-    url: 'https://youtube.com/dongngo279',
-    icon: <FaYoutube />,
-  },
+  // {
+  //   url: 'https://fb.com/nBaDong',
+  //   icon: <FaFacebook />,
+  // },
+  // {
+  //   url: 'https://youtube.com/dongngo279',
+  //   icon: <FaYoutube />,
+  // },
 ];
 
 const _About = () => {
@@ -65,17 +65,16 @@ const _About = () => {
           <strong>Front-End: </strong>
           {"I'm experienced in" + ' '}
           <strong>
-            Javascript, Typescript on ReactJS, React Native, using Redux, Axios, Firebase,...
+            Javascript, Typescript on ReactJS, React Native, using Redux, Axios,
+            Firebase,...
           </strong>
           etc
         </p>
 
         <p className="lead mb-4">
           <strong>Back-End: </strong>
-          {"I have basic knowledge about" + ' '}
-          <strong>
-            NodeJs, ExpressJs, MongoDB
-          </strong>
+          {'I have basic knowledge of' + ' '}
+          <strong>NodeJs, ExpressJs, MongoDB</strong>
         </p>
 
         <div className="social-icons">{renderSocial()}</div>
@@ -84,4 +83,4 @@ const _About = () => {
   );
 };
 
-export const About = memo(_About);
+export const About = React.memo(_About);

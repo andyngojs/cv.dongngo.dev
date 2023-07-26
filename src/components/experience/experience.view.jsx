@@ -1,4 +1,4 @@
-import React, {memo, useCallback} from 'react';
+import {memo, useCallback} from 'react';
 import {FaBookmark} from 'react-icons/fa';
 import {ExperienceItem} from './experience-item/experience-item.view';
 
@@ -14,19 +14,20 @@ const myExperiences = [
       <>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate to develop gifts, gift exchange module for{' '}
+          Participate in developing gifts and gift exchange modules for the{' '}
           <a target="_blank" href="https://share.abphotos.link/heWE">
             Plusssz
           </a>{' '}
-          app (The feature of the received gifts list screen and search for received gifts)
+          app. (The feature of the received gifts list screen and search for
+          received gifts)
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate to develop course module for{' '}
+          Participate in developing course module for the{' '}
           <a target="_blank" href="https://share.abphotos.link/3eUo">
             Nghi Thảo
           </a>{' '}
-          app (The feature of checkout online courses via VNPay,...)
+          app. (The feature of checkout online courses via VNPay)
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
@@ -34,15 +35,17 @@ const myExperiences = [
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Supporting customer.
+          Customer support.
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate to maintain, upgrade mobile apps on the both platforms IOS and Android.
+          Participate in maintaining and upgrading mobile apps on both platforms
+          IOS and Android.
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate to build, release mobile apps on the Google Play and App Store.
+          Participate in building and releasing mobile apps on Google Play and
+          App Store.
         </div>
       </>
     ),
@@ -58,11 +61,11 @@ const myExperiences = [
       <>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Research Angular Framework
+          Research Angular framework.
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate to develop Todolist app with Angular Framework{' '}
+          Participate in developing the Todolist app with Angular framework.{' '}
           (Project-based Learning)
         </div>
       </>

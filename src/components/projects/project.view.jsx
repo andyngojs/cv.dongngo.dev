@@ -19,7 +19,7 @@ const myProjects = [
           target="_blank"
           href="https://www.nytimes.com/games/wordle/index.html">
           {' ' + 'Wordle' + ' '}
-        </a> game, it did develop by React Native on the mobile platform.
+        </a> game, it was developed again by React Native on the mobile platform.
         <em>{' (Project-Based Learning)'}</em>
       </li>
     ),

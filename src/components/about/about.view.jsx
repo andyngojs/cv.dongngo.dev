@@ -5,12 +5,13 @@ import {
   FaLinkedin,
   FaGithub,
   FaFacebook,
+  FaYoutube
 } from 'react-icons/fa';
 import appConfig from '../../app/config';
 
 const socialsIcon = [
   {
-    url: 'https://www.linkedin.com/in/dongnba',
+    url: 'https://linkedin.com/in/dongnba',
     icon: <FaLinkedin />,
   },
   {
@@ -18,8 +19,12 @@ const socialsIcon = [
     icon: <FaGithub />,
   },
   {
-    url: 'https://www.facebook.com/nBaDong',
+    url: 'https://fb.com/nBaDong',
     icon: <FaFacebook />,
+  },
+  {
+    url: 'https://youtube.com/dongngo279',
+    icon: <FaYoutube />,
   },
 ];
 
@@ -58,11 +63,19 @@ const _About = () => {
 
         <p className="lead mb-4">
           <strong>Front-End: </strong>
-          {'I am experienced in' + ' '}
+          {"I'm experienced in" + ' '}
           <strong>
-            Javascript on ReactJS, React Native, using Redux, Axios,...
+            Javascript, Typescript on ReactJS, React Native, using Redux, Axios, Firebase,...
           </strong>
           etc
+        </p>
+
+        <p className="lead mb-4">
+          <strong>Back-End: </strong>
+          {"I have basic knowledge about" + ' '}
+          <strong>
+            NodeJs, ExpressJs, MongoDB
+          </strong>
         </p>
 
         <div className="social-icons">{renderSocial()}</div>

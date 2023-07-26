@@ -7,16 +7,19 @@ const _ExperienceItem = ({
   description = () => {},
   startDate,
   endDate,
+  address
 }) => {
   return (
     <div className="resume-item d-flex flex-column flex-md-row mb-4">
       <div className="resume-content mr-auto">
         <h3 className="mb-0">
+            {position}
+        </h3>
+        <div className="subheading mb-3">
           <a href={website} target="blank">
             {company}
-          </a>
-        </h3>
-        <div className="subheading mb-3">{position}</div>
+          </a> - {address}
+        </div>
         <div className="">{description()}</div>
       </div>
 

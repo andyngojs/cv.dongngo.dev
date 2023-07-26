@@ -15,6 +15,11 @@ const languagesAndTools = [
     icon: <i className="devicon-javascript-plain colored"></i>,
   },
   {
+    name: 'Angular',
+    icon: <i className="devicon-angularjs-plain colored"></i>
+
+  },
+  {
     name: 'React',
     icon: <i className="devicon-react-original colored"></i>,
   },
@@ -25,6 +30,10 @@ const languagesAndTools = [
   {
     name: 'Nodejs',
     icon: <i className="devicon-nodejs-plain colored"></i>,
+  },
+  {
+    name: 'express',
+    icon: <i className="devicon-express-original-wordmark colored"></i>,
   },
   {
     name: 'mongoDB',
@@ -43,9 +52,9 @@ const languagesAndTools = [
     icon: <i className="devicon-xcode-plain colored"></i>,
   },
   {
-    name: 'slack',
-    icon: <i className="devicon-slack-plain-wordmark colored"></i>,
-  },
+    name: 'firebase',
+    icon: <i className="devicon-firebase-plain colored"></i>,
+  }
 ];
 
 const workflows = [

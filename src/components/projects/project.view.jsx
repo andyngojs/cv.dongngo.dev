@@ -14,14 +14,13 @@ const myProjects = [
     projectElement: (
       <li className="mb-1">
         <FaTrophy className="text-warning m-right" />
-        Building <strong>MiniGame</strong> - A Mini game based on game
+        Building <strong>MiniGame</strong> - A mini-game based on
         <a
           target="_blank"
           href="https://www.nytimes.com/games/wordle/index.html">
           {' ' + 'Wordle' + ' '}
-        </a>
-        , developed on the platforms mobile.
-        <em>{'(Project-Based Learning)'}</em>
+        </a> game, it did develop by React Native on the mobile platform.
+        <em>{' (Project-Based Learning)'}</em>
       </li>
     ),
   },
@@ -29,9 +28,10 @@ const myProjects = [
     projectElement: (
       <li className="mb-1">
         <FaTrophy className="text-warning m-right" />
-        Building <strong>DobeeRoom</strong> - The platform support students
-        looking for rooms
-        <em>{'(Graduated-project)'}</em>
+        Building
+        <strong> DobeeRoom</strong>
+        - The platform support students looking for rooms
+        <em> (A graduation project)</em>
       </li>
     ),
   },
@@ -47,7 +47,7 @@ const myProjects = [
         <a target="_blank" href="https://youtu.be/6TXw0TIgGFA">
           <strong>Controller of temperature and humidity </strong>
         </a>
-        - Two specialization projects
+        - It is 2 specialization projects
       </li>
     ),
   },
@@ -62,7 +62,6 @@ const myProjects = [
           <strong>Who Want To Be A Millionaire Game</strong>
         </a>
         - A project of HTML, CSS, and Javascript
-        <em>{' ' + '(Project-Based Learning)'}</em>
       </li>
     ),
   },
@@ -75,7 +74,6 @@ const myProjects = [
           <strong>Crush Love</strong>
         </a>
         - A funny project of HTML, CSS, and Javascript
-        <em>{' ' + '(Project-Based Learning)'}</em>
       </li>
     ),
   },
@@ -91,8 +89,8 @@ const myProjects = [
         <a target="_blank" href="https://andyngojs.github.io/w3_band/">
           <strong>W3Band </strong>
         </a>
-        - Two projects of HTML, CSS and Javascript in the course of{' '}
-        <a target="_blank" href="https://fullstack.edu.vn/">
+        - It is 2 projects of HTML, CSS and Javascript in the course of{' '}
+        <a target="_blank" href="https://f8.edu.vn/">
           <strong>F8</strong>
         </a>
         <em>{' ' + '(Project-Based Learning)'}</em>

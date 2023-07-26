@@ -8,37 +8,41 @@ const myExperiences = [
     website: 'https://abaha.vn',
     position: 'Mobile App Developer',
     startDate: '03/2022',
-    endDate: 'Present',
+    endDate: '06/2023',
+    address: 'Hanoi, Vietnam',
     description: (
       <>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate developing Gift, gift exchange module for{' '}
-          <a target="_blank" href="">
+          Participate to develop gifts, gift exchange module for{' '}
+          <a target="_blank" href="https://share.abphotos.link/heWE">
             Plusssz
           </a>{' '}
-          app
+          app (The feature of the received gifts list screen and search for received gifts)
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate developing Course module for{' '}
-          <a target="_blank" href="">
+          Participate to develop course module for{' '}
+          <a target="_blank" href="https://share.abphotos.link/3eUo">
             Nghi Thảo
           </a>{' '}
-          app
+          app (The feature of checkout online courses via VNPay,...)
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Build, upgrade app on the both platforms IOS and Android for customer.
+          Write technical internal documents for the team.
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate to release mobile apps on the Google Play and App Store.
+          Supporting customer.
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Developed core features and the specific features with the request's
-          customer.
+          Participate to maintain, upgrade mobile apps on the both platforms IOS and Android.
+        </div>
+        <div className="mb-2">
+          <FaBookmark className="text-warning" />
+          Participate to build, release mobile apps on the Google Play and App Store.
         </div>
       </>
     ),
@@ -49,6 +53,7 @@ const myExperiences = [
     position: 'FrontEnd Web Internship',
     startDate: '12/2021',
     endDate: '02/2022',
+    address: 'Hanoi, Vietnam',
     description: (
       <>
         <div className="mb-2">
@@ -57,8 +62,8 @@ const myExperiences = [
         </div>
         <div className="mb-2">
           <FaBookmark className="text-warning" />
-          Participate developing TodoList application with Angular Framework{' '}
-          {'(Project-based Learning)'}
+          Participate to develop Todolist app with Angular Framework{' '}
+          (Project-based Learning)
         </div>
       </>
     ),
@@ -76,6 +81,7 @@ const _Experience = () => {
         startDate={item.startDate}
         endDate={item.endDate}
         description={() => item.description}
+        address={item.address}
       />
     ));
   }, []);

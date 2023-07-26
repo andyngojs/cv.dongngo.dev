@@ -73,7 +73,7 @@ const _About = () => {
 
         <p className="lead mb-4">
           <strong>Back-End: </strong>
-          {'I have basic knowledge of' + ' '}
+          {'I have a basic knowledge of' + ' '}
           <strong>NodeJs, ExpressJs, MongoDB</strong>
         </p>
 

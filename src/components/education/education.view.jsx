@@ -49,7 +49,7 @@ const _Education = () => {
                 <FaBookmark className="text-warning m-right" />
                 When I was a student, I studied a lot about career development
                 in information technology and then I learned courses on software
-                programing on the{'  '}
+                programming on the{'  '}
                 <a
                   rel={'noreferrer'}
                   target={'_blank'}
@@ -57,8 +57,7 @@ const _Education = () => {
                   CodeLearn
                 </a>
                 , such as <strong>Javascript Basic</strong>,{' '}
-                <strong>C++ Basic</strong>, ...etc. <br />
-                I did join the CodeLearn community and wrote blogs on Codelearn.
+                <strong>C++ Basic</strong>, ...etc. I did join the CodeLearn community and wrote blogs on Codelearn.
                 Such as <br />
                 <a
                   rel={'noreferrer'}
